@@ -1,0 +1,2376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Piazza | Premium Italian Pizza</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="demopizza.css">
+</head>
+
+<body>
+
+<!-- =========================
+     PRELOADER
+========================= -->
+<div class="preloader" id="preloader">
+    <div class="loader">
+        <i class="fa-solid fa-pizza-slice"></i>
+        <span>La Piazza</span>
+    </div>
+</div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+<header class="header" id="header">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-pizza-slice"></i>
+            </span>
+
+            <span>
+                La<span>Piazza</span>
+            </span>
+        </a>
+
+        <div class="nav-menu" id="navMenu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#specials" class="nav-link">Specials</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+            <button class="nav-close" id="navClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div class="nav-actions">
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+</button>
+
+            <button class="cart-btn" id="cartBtn" aria-label="Shopping cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+
+            <a href="#menu" class="nav-order-btn">
+                Order Now
+            </a>
+
+            <button class="nav-toggle" id="navToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+<main>
+
+<section class="hero section" id="home">
+
+    <div class="hero-bg-shape shape-one"></div>
+    <div class="hero-bg-shape shape-two"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="hero-badge">
+                <i class="fa-solid fa-fire"></i>
+                Freshly baked every day
+            </div>
+
+            <h1>
+                Crafted with
+                <span>passion.</span>
+                Served with love.
+            </h1>
+
+            <p>
+                Hand-stretched dough, rich tomato sauce,
+                premium ingredients and a whole lot of love.
+                Discover your new favorite pizza today.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="primary-btn">
+                    Explore Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    <i class="fa-solid fa-play"></i>
+                    Our Story
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="hero-stat">
+                    <strong>15+</strong>
+                    <span>Years Experience</span>
+                </div>
+
+                <div class="hero-stat">
+                    <strong>4.9</strong>
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        Customer Rating
+                    </span>
+                </div>
+
+                <div class="hero-stat">
+                    <strong>30K+</strong>
+                    <span>Happy Customers</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image-wrapper reveal">
+
+            <div class="hero-circle"></div>
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1000&q=85"
+                    alt="Fresh Italian pizza"
+                >
+
+            </div>
+
+            <div class="floating-card rating-card">
+
+                <div class="rating-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div>
+                    <strong>4.9/5</strong>
+                    <small>Excellent taste</small>
+                </div>
+
+            </div>
+
+            <div class="floating-card delivery-card">
+
+                <div class="delivery-icon">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+
+                <div>
+                    <strong>Fast Delivery</strong>
+                    <small>30–45 minutes</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURES
+========================= -->
+<section class="features">
+
+    <div class="container features-grid">
+
+        <div class="feature-card reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+
+            <div>
+                <h3>Fresh Ingredients</h3>
+                <p>Locally sourced & carefully selected.</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-fire-burner"></i>
+            </div>
+
+            <div>
+                <h3>Wood Fired</h3>
+                <p>Authentic taste from our stone oven.</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+
+            <div>
+                <h3>Quick Delivery</h3>
+                <p>Hot & fresh at your doorstep.</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div>
+                <h3>Made With Love</h3>
+                <p>Every pizza is crafted with care.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MENU
+========================= -->
+<section class="menu section" id="menu">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                Our Menu
+            </span>
+
+            <h2>
+                Something delicious
+                <span>for everyone.</span>
+            </h2>
+
+            <p>
+                Explore our selection of handcrafted favorites,
+                made fresh to order.
+            </p>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="menu-filters reveal">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="pizza">
+                <i class="fa-solid fa-pizza-slice"></i>
+                Pizza
+            </button>
+
+            <button class="filter-btn" data-filter="burger">
+                <i class="fa-solid fa-burger"></i>
+                Burgers
+            </button>
+
+            <button class="filter-btn" data-filter="pasta">
+                <i class="fa-solid fa-bowl-food"></i>
+                Pasta
+            </button>
+
+            <button class="filter-btn" data-filter="sides">
+                <i class="fa-solid fa-drumstick-bite"></i>
+                Sides
+            </button>
+
+            <button class="filter-btn" data-filter="drinks">
+                <i class="fa-solid fa-mug-hot"></i>
+                Drinks
+            </button>
+
+        </div>
+
+
+        <!-- MENU GRID -->
+
+        <div class="menu-grid" id="menuGrid">
+
+
+            <!-- ITEM 1 -->
+
+            <article class="food-card reveal" data-category="pizza">
+
+                <div class="food-image">
+
+                    <span class="food-badge">
+                        Bestseller
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=85"
+                        alt="Margherita pizza"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Classic Margherita"
+                        data-price="12.99"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Classic Margherita</h3>
+                        <span class="food-price">$12.99</span>
+                    </div>
+
+                    <p>
+                        San Marzano tomato, fresh mozzarella,
+                        basil and extra virgin olive oil.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.9
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Classic Margherita"
+                            data-price="12.99"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 2 -->
+
+            <article class="food-card reveal" data-category="pizza">
+
+                <div class="food-image">
+
+                    <span class="food-badge spicy">
+                        Spicy
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=800&q=85"
+                        alt="Pepperoni pizza"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Pepperoni Inferno"
+                        data-price="15.99"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Pepperoni Inferno</h3>
+                        <span class="food-price">$15.99</span>
+                    </div>
+
+                    <p>
+                        Spicy pepperoni, mozzarella, tomato sauce,
+                        chili flakes and fresh oregano.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.8
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Pepperoni Inferno"
+                            data-price="15.99"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 3 -->
+
+            <article class="food-card reveal" data-category="pizza">
+
+                <div class="food-image">
+
+                    <span class="food-badge vegetarian">
+                        Vegetarian
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=85"
+                        alt="Garden veggie pizza"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Garden Verde"
+                        data-price="14.49"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Garden Verde</h3>
+                        <span class="food-price">$14.49</span>
+                    </div>
+
+                    <p>
+                        Bell peppers, mushrooms, olives,
+                        cherry tomatoes and mozzarella.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.7
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Garden Verde"
+                            data-price="14.49"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 4 -->
+
+            <article class="food-card reveal" data-category="burger">
+
+                <div class="food-image">
+
+                    <span class="food-badge">
+                        Popular
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
+                        alt="Classic beef burger"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Piazza Smash"
+                        data-price="13.99"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Piazza Smash</h3>
+                        <span class="food-price">$13.99</span>
+                    </div>
+
+                    <p>
+                        Double smashed beef patties, cheddar,
+                        caramelized onions and house sauce.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.9
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Piazza Smash"
+                            data-price="13.99"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 5 -->
+
+            <article class="food-card reveal" data-category="pasta">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85"
+                        alt="Creamy pasta"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Creamy Alfredo"
+                        data-price="13.49"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Creamy Alfredo</h3>
+                        <span class="food-price">$13.49</span>
+                    </div>
+
+                    <p>
+                        Fresh fettuccine tossed in creamy parmesan
+                        sauce with garlic and herbs.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.8
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Creamy Alfredo"
+                            data-price="13.49"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 6 -->
+
+            <article class="food-card reveal" data-category="sides">
+
+                <div class="food-image">
+
+                    <span class="food-badge">
+                        Favorite
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=85"
+                        alt="Crispy french fries"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Truffle Fries"
+                        data-price="6.99"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Truffle Fries</h3>
+                        <span class="food-price">$6.99</span>
+                    </div>
+
+                    <p>
+                        Crispy golden fries, parmesan,
+                        truffle oil and fresh parsley.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.8
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Truffle Fries"
+                            data-price="6.99"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 7 -->
+
+            <article class="food-card reveal" data-category="drinks">
+
+                <div class="food-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=85"
+                        alt="Fresh fruit drink"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Fresh Berry Cooler"
+                        data-price="5.49"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Berry Cooler</h3>
+                        <span class="food-price">$5.49</span>
+                    </div>
+
+                    <p>
+                        Fresh berries, citrus, sparkling water
+                        and a touch of mint.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.7
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Berry Cooler"
+                            data-price="5.49"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ITEM 8 -->
+
+            <article class="food-card reveal" data-category="pizza">
+
+                <div class="food-image">
+
+                    <span class="food-badge">
+                        Chef's Pick
+                    </span>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=85"
+                        alt="Four cheese pizza"
+                    >
+
+                    <button
+                        class="quick-add"
+                        data-name="Quattro Formaggi"
+                        data-price="16.49"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-title-row">
+                        <h3>Quattro Formaggi</h3>
+                        <span class="food-price">$16.49</span>
+                    </div>
+
+                    <p>
+                        Mozzarella, parmesan, gorgonzola,
+                        ricotta and aromatic herbs.
+                    </p>
+
+                    <div class="food-bottom">
+
+                        <span class="food-rating">
+                            <i class="fa-solid fa-star"></i>
+                            4.9
+                        </span>
+
+                        <button
+                            class="add-btn"
+                            data-name="Quattro Formaggi"
+                            data-price="16.49"
+                        >
+                            Add to cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+<section class="about section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-images reveal">
+
+            <div class="about-main-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=85"
+                    alt="Pizza being prepared"
+                >
+
+            </div>
+
+            <div class="about-small-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=700&q=85"
+                    alt="Fresh pizza"
+                >
+
+            </div>
+
+            <div class="experience-badge">
+
+                <strong>15</strong>
+
+                <span>
+                    Years of
+                    <br>
+                    Excellence
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <span class="section-tag">
+                Our Story
+            </span>
+
+            <h2>
+                More than pizza.
+                <span>It's a tradition.</span>
+            </h2>
+
+            <p>
+                What started as a small family kitchen has grown into
+                a place where friends meet, families gather and great
+                food brings everyone together.
+            </p>
+
+            <p>
+                We believe great pizza starts with great ingredients.
+                That's why we make our dough fresh every morning,
+                prepare our sauces from scratch and carefully select
+                every ingredient that goes on your plate.
+            </p>
+
+            <div class="about-list">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Fresh dough made daily</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Premium quality ingredients</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Traditional cooking methods</span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Made fresh to order</span>
+                </div>
+
+            </div>
+
+            <a href="#contact" class="primary-btn">
+                Visit Us
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SPECIAL OFFER
+========================= -->
+<section class="specials section" id="specials">
+
+    <div class="container">
+
+        <div class="special-card reveal">
+
+            <div class="special-content">
+
+                <span class="special-tag">
+                    Limited Time Offer
+                </span>
+
+                <h2>
+                    Pizza night
+                    <br>
+                    made better.
+                </h2>
+
+                <p>
+                    Get any two large pizzas and receive a
+                    complimentary dessert.
+                </p>
+
+                <div class="special-price">
+
+                    <span>Starting at</span>
+                    <strong>$24.99</strong>
+
+                </div>
+
+                <button
+                    class="primary-btn special-order"
+                    data-name="Pizza Night Deal"
+                    data-price="24.99"
+                >
+                    Order This Deal
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+            <div class="special-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?auto=format&fit=crop&w=1000&q=85"
+                    alt="Pizza special offer"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TESTIMONIALS
+========================= -->
+<section class="testimonials section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                Customer Love
+            </span>
+
+            <h2>
+                Loved by
+                <span>thousands.</span>
+            </h2>
+
+            <p>
+                Don't just take our word for it.
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+            <article class="testimonial-card reveal">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="testimonial-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Absolutely incredible pizza. The crust was
+                    perfectly crispy and the ingredients tasted
+                    incredibly fresh. Definitely coming back!”
+                </p>
+
+                <div class="customer">
+
+                    <div class="customer-avatar">
+                        AM
+                    </div>
+
+                    <div>
+                        <strong>Alex Morgan</strong>
+                        <span>Verified Customer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial-card reveal">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="testimonial-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “The perfect place for a family dinner.
+                    Amazing food, beautiful atmosphere and
+                    super friendly staff.”
+                </p>
+
+                <div class="customer">
+
+                    <div class="customer-avatar">
+                        SJ
+                    </div>
+
+                    <div>
+                        <strong>Sarah Johnson</strong>
+                        <span>Verified Customer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="testimonial-card reveal">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <div class="testimonial-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Best pizza I've had in a long time.
+                    Fast delivery and everything arrived hot.
+                    The Pepperoni Inferno is amazing!”
+                </p>
+
+                <div class="customer">
+
+                    <div class="customer-avatar">
+                        DK
+                    </div>
+
+                    <div>
+                        <strong>Daniel Kim</strong>
+                        <span>Verified Customer</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+<section class="contact section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-content reveal">
+
+            <span class="section-tag">
+                Get In Touch
+            </span>
+
+            <h2>
+                Let's make your
+                <span>next meal special.</span>
+            </h2>
+
+            <p>
+                Have a question, want to make a reservation,
+                or simply want to say hello? We'd love to hear
+                from you.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+                        <span>Visit Us</span>
+                        <strong>123 Main Street, Downtown</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <span>Call Us</span>
+                        <strong>+1 (555) 123-4567</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>Email Us</span>
+                        <strong>hello@lapiazza.com</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="opening-hours">
+
+                <div class="hours-title">
+                    <i class="fa-regular fa-clock"></i>
+                    <strong>Opening Hours</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Monday – Thursday</span>
+                    <strong>11:00 AM – 10:00 PM</strong>
+                </div>
+
+                <div class="hours-row">
+                    <span>Friday – Sunday</span>
+                    <strong>11:00 AM – 11:30 PM</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-form-wrapper reveal">
+
+            <form id="contactForm" class="contact-form">
+
+                <h3>
+                    Send us a message
+                </h3>
+
+                <p>
+                    We'll get back to you as soon as possible.
+                </p>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="John Smith"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="john@example.com"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="How can we help?"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="primary-btn form-submit"
+                >
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+
+                <div
+                    class="form-message"
+                    id="formMessage"
+                ></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                </span>
+
+                <span>
+                    La<span>Piazza</span>
+                </span>
+
+            </a>
+
+            <p>
+                Handcrafted pizza, made with passion
+                and served with love.
+            </p>
+
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#about">Our Story</a>
+            <a href="#specials">Specials</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Help</h4>
+
+            <a href="#contact">Contact Us</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Newsletter</h4>
+
+            <p>
+                Subscribe for exclusive offers and updates.
+            </p>
+
+            <form
+                class="newsletter-form"
+                id="newsletterForm"
+            >
+
+                <input
+                    type="email"
+                    placeholder="Your email"
+                    required
+                >
+
+                <button type="submit">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <div
+                class="newsletter-message"
+                id="newsletterMessage"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container footer-bottom-inner">
+
+            <p>
+                © 2026 La Piazza. All rights reserved.
+            </p>
+
+            <p>
+                Crafted with
+                <i class="fa-solid fa-heart"></i>
+                for food lovers.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     SHOPPING CART SIDEBAR
+========================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <div>
+            <span>Your Order</span>
+            <h3>Shopping Cart</h3>
+        </div>
+
+        <button id="cartClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+
+            <div class="empty-cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+
+            <h4>Your cart is empty</h4>
+
+            <p>
+                Add something delicious from our menu.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                $0.00
+            </strong>
+
+        </div>
+
+        <button
+            class="primary-btn checkout-btn"
+            id="checkoutBtn"
+        >
+            Proceed to Checkout
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- =========================
+     TOAST
+========================= -->
+
+<div class="toast" id="toast">
+
+    <div class="toast-icon">
+        <i class="fa-solid fa-check"></i>
+    </div>
+
+    <div>
+        <strong id="toastTitle">
+            Added to cart
+        </strong>
+
+        <span id="toastMessage">
+            Item added successfully.
+        </span>
+    </div>
+
+</div>
+
+
+<!-- =========================
+     BACK TO TOP
+========================= -->
+
+<button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top"
+>
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    /* =========================
+       PRELOADER
+    ========================= */
+
+    const preloader = document.getElementById("preloader");
+
+    window.addEventListener("load", () => {
+
+        setTimeout(() => {
+            preloader.classList.add("hidden");
+        }, 600);
+
+    });
+
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    const navMenu = document.getElementById("navMenu");
+    const navToggle = document.getElementById("navToggle");
+    const navClose = document.getElementById("navClose");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+
+    function openMenu() {
+        navMenu.classList.add("show");
+        document.body.classList.add("menu-open");
+    }
+
+
+    function closeMenu() {
+        navMenu.classList.remove("show");
+        document.body.classList.remove("menu-open");
+    }
+
+
+    navToggle.addEventListener("click", openMenu);
+
+    navClose.addEventListener("click", closeMenu);
+
+
+    navLinks.forEach(link => {
+
+        link.addEventListener("click", closeMenu);
+
+    });
+
+
+    /* =========================
+       STICKY HEADER
+    ========================= */
+
+    const header = document.getElementById("header");
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+
+    });
+
+
+    /* =========================
+       ACTIVE NAV LINK
+    ========================= */
+
+    const sections = document.querySelectorAll("section[id]");
+
+    function updateActiveLink() {
+
+        const scrollPosition = window.scrollY + 150;
+
+        sections.forEach(section => {
+
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute("id");
+
+            if (
+                scrollPosition >= sectionTop &&
+                scrollPosition < sectionTop + sectionHeight
+            ) {
+
+                navLinks.forEach(link => {
+                    link.classList.remove("active");
+                });
+
+                const activeLink =
+                    document.querySelector(
+                        `.nav-link[href="#${sectionId}"]`
+                    );
+
+                if (activeLink) {
+                    activeLink.classList.add("active");
+                }
+
+            }
+
+        });
+
+    }
+
+
+    window.addEventListener("scroll", updateActiveLink);
+
+
+    /* =========================
+       MENU FILTER
+    ========================= */
+
+    const filterButtons =
+        document.querySelectorAll(".filter-btn");
+
+    const foodCards =
+        document.querySelectorAll(".food-card");
+
+
+    filterButtons.forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            filterButtons.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            const filter =
+                button.getAttribute("data-filter");
+
+
+            foodCards.forEach(card => {
+
+                const category =
+                    card.getAttribute("data-category");
+
+                if (
+                    filter === "all" ||
+                    category === filter
+                ) {
+
+                    card.style.display = "block";
+
+                    setTimeout(() => {
+                        card.classList.add("visible");
+                    }, 20);
+
+                } else {
+
+                    card.style.display = "none";
+                    card.classList.remove("visible");
+
+                }
+
+            });
+
+        });
+
+    });
+
+
+    /* =========================
+       CART
+    ========================= */
+
+    let cart = [];
+
+
+    const cartBtn = document.getElementById("cartBtn");
+    const cartClose = document.getElementById("cartClose");
+    const cartSidebar = document.getElementById("cartSidebar");
+    const cartOverlay = document.getElementById("cartOverlay");
+
+    const cartItems = document.getElementById("cartItems");
+    const cartCount = document.getElementById("cartCount");
+    const cartTotal = document.getElementById("cartTotal");
+
+
+    function openCart() {
+
+        cartSidebar.classList.add("show");
+        cartOverlay.classList.add("show");
+
+        document.body.classList.add("cart-open");
+
+    }
+
+
+    function closeCart() {
+
+        cartSidebar.classList.remove("show");
+        cartOverlay.classList.remove("show");
+
+        document.body.classList.remove("cart-open");
+
+    }
+
+
+    cartBtn.addEventListener("click", openCart);
+    cartClose.addEventListener("click", closeCart);
+    cartOverlay.addEventListener("click", closeCart);
+
+
+    function addToCart(name, price) {
+
+        const existingItem =
+            cart.find(item => item.name === name);
+
+
+        if (existingItem) {
+
+            existingItem.quantity++;
+
+        } else {
+
+            cart.push({
+                name: name,
+                price: parseFloat(price),
+                quantity: 1
+            });
+
+        }
+
+
+        updateCart();
+
+        showToast(
+            "Added to cart",
+            `${name} was added successfully.`
+        );
+
+    }
+
+
+    function updateCart() {
+
+        cartItems.innerHTML = "";
+
+
+        if (cart.length === 0) {
+
+            cartItems.innerHTML = `
+
+                <div class="empty-cart">
+
+                    <div class="empty-cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+
+                    <h4>Your cart is empty</h4>
+
+                    <p>
+                        Add something delicious from our menu.
+                    </p>
+
+                </div>
+
+            `;
+
+        } else {
+
+            cart.forEach((item, index) => {
+
+                const cartItem =
+                    document.createElement("div");
+
+                cartItem.className = "cart-item";
+
+
+                cartItem.innerHTML = `
+
+                    <div class="cart-item-info">
+
+                        <h4>${item.name}</h4>
+
+                        <span>
+                            $${item.price.toFixed(2)}
+                        </span>
+
+                    </div>
+
+                    <div class="cart-item-controls">
+
+                        <button
+                            class="quantity-btn"
+                            data-index="${index}"
+                            data-action="decrease"
+                        >
+                            <i class="fa-solid fa-minus"></i>
+                        </button>
+
+                        <strong>
+                            ${item.quantity}
+                        </strong>
+
+                        <button
+                            class="quantity-btn"
+                            data-index="${index}"
+                            data-action="increase"
+                        >
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                    <button
+                        class="remove-item"
+                        data-index="${index}"
+                    >
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+
+                `;
+
+
+                cartItems.appendChild(cartItem);
+
+            });
+
+        }
+
+
+        const totalItems =
+            cart.reduce(
+                (sum, item) => sum + item.quantity,
+                0
+            );
+
+
+        const totalPrice =
+            cart.reduce(
+                (sum, item) =>
+                    sum + item.price * item.quantity,
+                0
+            );
+
+
+        cartCount.textContent = totalItems;
+
+        cartTotal.textContent =
+            `$${totalPrice.toFixed(2)}`;
+
+    }
+
+
+    /* =========================
+       ADD TO CART BUTTONS
+    ========================= */
+
+    document.querySelectorAll(".add-btn, .quick-add")
+        .forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                const name =
+                    button.getAttribute("data-name");
+
+                const price =
+                    button.getAttribute("data-price");
+
+                addToCart(name, price);
+
+            });
+
+        });
+
+
+    /* =========================
+       CART QUANTITY CONTROLS
+    ========================= */
+
+    cartItems.addEventListener("click", event => {
+
+        const quantityButton =
+            event.target.closest(".quantity-btn");
+
+        const removeButton =
+            event.target.closest(".remove-item");
+
+
+        if (quantityButton) {
+
+            const index =
+                parseInt(
+                    quantityButton.getAttribute("data-index")
+                );
+
+            const action =
+                quantityButton.getAttribute("data-action");
+
+
+            if (action === "increase") {
+
+                cart[index].quantity++;
+
+            }
+
+
+            if (action === "decrease") {
+
+                cart[index].quantity--;
+
+                if (cart[index].quantity <= 0) {
+                    cart.splice(index, 1);
+                }
+
+            }
+
+
+            updateCart();
+
+        }
+
+
+        if (removeButton) {
+
+            const index =
+                parseInt(
+                    removeButton.getAttribute("data-index")
+                );
+
+            const removedItem = cart[index].name;
+
+            cart.splice(index, 1);
+
+            updateCart();
+
+            showToast(
+                "Removed",
+                `${removedItem} was removed from your cart.`
+            );
+
+        }
+
+    });
+
+
+    /* =========================
+       SPECIAL OFFER BUTTON
+    ========================= */
+
+    const specialOrder =
+        document.querySelector(".special-order");
+
+
+    if (specialOrder) {
+
+        specialOrder.addEventListener("click", () => {
+
+            const name =
+                specialOrder.getAttribute("data-name");
+
+            const price =
+                specialOrder.getAttribute("data-price");
+
+            addToCart(name, price);
+
+            setTimeout(() => {
+                openCart();
+            }, 400);
+
+        });
+
+    }
+
+
+    /* =========================
+       CHECKOUT
+    ========================= */
+
+    const checkoutBtn =
+        document.getElementById("checkoutBtn");
+
+
+    checkoutBtn.addEventListener("click", () => {
+
+        if (cart.length === 0) {
+
+            showToast(
+                "Cart is empty",
+                "Please add an item before checkout."
+            );
+
+            return;
+
+        }
+
+
+        showToast(
+            "Demo Checkout",
+            "Checkout is ready to connect to a payment system."
+        );
+
+    });
+
+
+    /* =========================
+       TOAST NOTIFICATION
+    ========================= */
+
+    const toast =
+        document.getElementById("toast");
+
+    const toastTitle =
+        document.getElementById("toastTitle");
+
+    const toastMessage =
+        document.getElementById("toastMessage");
+
+
+    let toastTimeout;
+
+
+    function showToast(title, message) {
+
+        toastTitle.textContent = title;
+        toastMessage.textContent = message;
+
+        toast.classList.add("show");
+
+
+        clearTimeout(toastTimeout);
+
+
+        toastTimeout = setTimeout(() => {
+
+            toast.classList.remove("show");
+
+        }, 3000);
+
+    }
+
+
+    /* =========================
+       CONTACT FORM
+    ========================= */
+
+    const contactForm =
+        document.getElementById("contactForm");
+
+    const formMessage =
+        document.getElementById("formMessage");
+
+
+    contactForm.addEventListener("submit", event => {
+
+        event.preventDefault();
+
+
+        const name =
+            document.getElementById("name").value.trim();
+
+
+        formMessage.textContent =
+            `Thanks ${name}! Your message has been received.`;
+
+        formMessage.classList.add("show");
+
+
+        contactForm.reset();
+
+
+        setTimeout(() => {
+
+            formMessage.classList.remove("show");
+
+        }, 5000);
+
+    });
+
+
+    /* =========================
+       NEWSLETTER
+    ========================= */
+
+    const newsletterForm =
+        document.getElementById("newsletterForm");
+
+    const newsletterMessage =
+        document.getElementById("newsletterMessage");
+
+
+    newsletterForm.addEventListener("submit", event => {
+
+        event.preventDefault();
+
+
+        newsletterMessage.textContent =
+            "You're subscribed! Welcome to La Piazza.";
+
+        newsletterMessage.classList.add("show");
+
+
+        newsletterForm.reset();
+
+
+        setTimeout(() => {
+
+            newsletterMessage.classList.remove("show");
+
+        }, 4000);
+
+    });
+
+
+    /* =========================
+       SCROLL REVEAL
+    ========================= */
+
+    const revealElements =
+        document.querySelectorAll(".reveal");
+
+
+    const revealObserver =
+        new IntersectionObserver(
+            entries => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("visible");
+
+                        revealObserver.unobserve(
+                            entry.target
+                        );
+
+                    }
+
+                });
+
+            },
+            {
+                threshold: 0.12
+            }
+        );
+
+
+    revealElements.forEach(element => {
+
+        revealObserver.observe(element);
+
+    });
+
+
+    /* =========================
+       BACK TO TOP
+    ========================= */
+
+    const backToTop =
+        document.getElementById("backToTop");
+
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 500) {
+
+            backToTop.classList.add("show");
+
+        } else {
+
+            backToTop.classList.remove("show");
+
+        }
+
+    });
+
+
+    backToTop.addEventListener("click", () => {
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
+
+
+    /* =========================
+       ESCAPE KEY
+    ========================= */
+
+    document.addEventListener("keydown", event => {
+
+
+
+        
+
+/* =========================
+   DARK / LIGHT MODE
+========================= */
+
+const themeToggle =
+    document.getElementById("themeToggle");
+
+const themeIcon =
+    themeToggle.querySelector("i");
+
+
+/* Load saved theme */
+
+const savedTheme =
+    localStorage.getItem("laPiazzaTheme");
+
+if (savedTheme === "dark") {
+
+    document.body.classList.add("dark-mode");
+
+    themeIcon.classList.remove("fa-moon");
+    themeIcon.classList.add("fa-sun");
+
+}
+
+
+/* Toggle theme */
+
+themeToggle.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark-mode");
+
+    const isDark =
+        document.body.classList.contains("dark-mode");
+
+
+    if (isDark) {
+
+        themeIcon.classList.remove("fa-moon");
+        themeIcon.classList.add("fa-sun");
+
+        localStorage.setItem(
+            "laPiazzaTheme",
+            "dark"
+        );
+
+    } else {
+
+        themeIcon.classList.remove("fa-sun");
+        themeIcon.classList.add("fa-moon");
+
+        localStorage.setItem(
+            "laPiazzaTheme",
+            "light"
+        );
+
+    }
+
+});
+
+        if (event.key === "Escape") {
+
+            closeMenu();
+            closeCart();
+
+        }
+
+    });
+
+
+    /* =========================
+       INITIALIZE
+    ========================= */
+
+    updateCart();
+    updateActiveLink();
+
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const button = document.getElementById("themeToggle");
+
+    if (!button) {
+        alert("Theme button was not found!");
+        return;
+    }
+
+    const icon = button.querySelector("i");
+
+    /* Check saved mode */
+    if (localStorage.getItem("pizzaTheme") === "dark") {
+        document.body.classList.add("dark-mode");
+
+        if (icon) {
+            icon.classList.remove("fa-moon");
+            icon.classList.add("fa-sun");
+        }
+    }
+
+    /* Button click */
+    button.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark-mode");
+
+        const dark =
+            document.body.classList.contains("dark-mode");
+
+        if (dark) {
+
+            localStorage.setItem("pizzaTheme", "dark");
+
+            if (icon) {
+                icon.classList.remove("fa-moon");
+                icon.classList.add("fa-sun");
+            }
+
+        } else {
+
+            localStorage.setItem("pizzaTheme", "light");
+
+            if (icon) {
+                icon.classList.remove("fa-sun");
+                icon.classList.add("fa-moon");
+            }
+        }
+
+        console.log("Dark mode:", dark);
+
+    });
+
+});
+
+
+</script>
+
+</body>
+</html>
